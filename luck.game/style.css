@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #080808;
+    font-size: 26px;
+    
+    
+  }
+  
+  h1 {
+    color: #ffffff;
+    background-color: #0000002e;
+    padding: 5px;
+    display: inline-block;
+    font-size: 35px;
+    
+    
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 60px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 35px;
+    background-color: #007bff; /* Azul padrão */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    animation-duration: 2s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  
+  button:hover {
+    background-color: #0056b3; /* Azul mais escuro quando passa o mouse */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://1.bp.blogspot.com/-zMoglSbwPOs/WLFnALR_ILI/AAAAAAAAIhY/xdj-7t8CkVME7sKbPBTUyjn6aLa_nsu2wCLcB/s1600/Banho%2Bde%2Bdinheiro.jpg');
+    background-size: cover; /* Para cobrir toda a área do corpo */
+    background-position: center; /* Para centralizar a imagem */
+    font-family: Arial, sans-serif; /* Estilo da fonte */
+  }
+  
+  .conteudo {
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 95px; /* Adiciona algum espaço ao redor do conteúdo */
+    color: #534a4a; /* Cor do texto */
+  }
+  
+ 
